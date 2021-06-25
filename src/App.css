@@ -1,0 +1,63 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(56, 56, 56);
+}
+
+.App {
+  text-align: center;
+}
+
+.reload {
+  display: flex;
+  height: 70px;
+}
+
+.ui.reload.button {
+  height: 40px;
+  width: 50px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.ui.reload.button:hover {
+  background-color: lightgray;
+}
+
+.header {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+h1:first-child {
+  margin-top: 80px;
+}
+
+.ui.add.button {
+  position: absolute;
+  width: 52px;
+  right: -2px;
+  bottom: 2px;
+}
+
+.ui.add.button:hover {
+  background-color: lightgray;
+}
+
+.ui.attached.button {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 30px;
+  padding: 10px 10px;
+}
+
+.ui.attached.button:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.content {
+  max-width: 150px;
+}
+
